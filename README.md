@@ -54,5 +54,9 @@ As it is shown in Fig 4, in the first loop, n value will be set (i.e. n=1) and i
 
 ## Results
 
+### 1-point Hedging Rule vs SLOP
+|<img src="https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/1-point.gif" width="2000">|
+|:--:| 
+| *Fig 5. The procedure of the GA to optimize n-point hedging rule* |
 
 
