@@ -32,11 +32,13 @@ The evolutionary algorithms such as GA are methods to solve an optimization prob
 As discussed before, in this project, the optimization problem is solved using the GA considering minimizing the vulnerability as the objective function (Eq. 12). In the optimization problem, the coordinate location of hedging points (such as B and C in Fig 2) are the decision variables that determine the function f in Eq. 12. The optimization model of the agriculture reservoir based on the hedging rule is as follows. 
  
 Subject to: 
- 
- 
- 
+![Eq.3 \label{Eq:3}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Eq3.png) <br />
  
 The optimization problem runs for several values of n (1, 5, 10, 20, and 40) and for each of those, the vulnerability is calculated once for Hyrum reservoir with the hedging rule provided by GA and once based on the SLOP. The procedure of these steps is illustrated in Fig 4.   
+
+| ![The procedure of the GA to optimize n-hedging rule\label{fig:4}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Fig4.jpg) | 
+|:--:| 
+| *Fig 4. The simulation process of an agricultural reservoir operation* |
 
 As it is shown in Fig 4, in the first loop, n value will be set (i.e. n=1) and in the second loop GA randomly guess a preliminary solution (i.e. coordinate location of points B and C in Fig 2 because of n=2). In other words, GA produces a bunch of monthly n-point hedging rule which means that each population in each iteration consists of 12 different hedging rules and each of those is related to the specific month. Next, the reservoir releases will be simulated based on the hedging rule that is a function of the coordinate location of those points and the objective function will be calculated. Then, the preliminary solution will be modified using the cross-over and mutation function until the stopping criterion is satisfied. In this moment, the vulnerability indicator is calculated based on the optimal coordinate location found by GA for the Hyrum reservoir and for the entire system. The indicator will be compared with the indicator calculated under SLOP rule. Afterward, the outer loop will be reset, n will be set to other values for n (i.e. 5) and the same procedure for inner loop will be executed until stopping criterion for the outer loop is satisfied (i.e. n <40).  
 
