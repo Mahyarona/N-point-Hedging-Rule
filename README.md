@@ -6,6 +6,17 @@ A platform has been developed to find the optimal coordinates of n-point hedging
 
 The importance and the rule of hedging rule policy are discussed and shown in the reservoir operation system section and Fig 3. Recall that the simplest form that links AW to RV is SLOP described in the introduction section and Fig 1. Although SLOP is based on releases to stratify demands in each period as much as there is water in the reservoir storage, when there is no sufficient water ($S_t<Demand_t$) in the reservoir storage, all the water storage should be released which means that the reservoir will be empty in the next period. That’s why SLOP doesn’t preserve water for the future requirements and system faces a big failure to meet the demand in the next periods. To cope this issue, some researchers use the non-linear forms of hedging rule and evaluate it using performance indicators. Others try to find the optimal values of both 45o slopes and the threshold of the spill. Moreover, there is another approach to modifying SLOP using breaking the lines (AB, BC, and CD in Fig 2) into more lines with different slopes called n-point hedging rule. Regardless of these approaches to modify the hedging rule, usually, the modification of the hedging rule is considered under a specific objective function (convert to an optimization problem). The objective function can be an improvement in the performance criteria such as reliability, resiliency or vulnerability or even minimizing the deficit.
 
+| ![A layout of SLOP \label{fig:1}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Fig1.jpg) | 
+|:--:| 
+| *Fig 1. A layout of SLOP* |
+
+| ![A layout of two-point hedging rule \label{fig:2}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Fig2.jpg) | 
+|:--:| 
+| *Fig 2. A layout of two-point hedging rule* |
+
+| ![The simulation process of an agricultural reservoir operation \label{fig:3}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Fig3.jpg) | 
+|:--:| 
+| *Fig 3. The simulation process of an agricultural reservoir operation* |
 ## Performance Criteria of the Reservoir System
 
 To evaluate the performance of a water resources system, it is necessary to develop and use indices. The most famous indices have been introduced by Hashimoto et al. (1982) and developed by many researchers (Loucks et al. 1981 and Sandoval-Solis et al. 2011). The Hashimoto's risk-based indicators are reliability, vulnerability, and resiliency that quantify the frequency, size, and length of the system failures, respectively. The sustainability is another index that shows the efficiency of the system calculated based on reliability, vulnerability, and resiliency. According to demerit feature of SLOP (poor performance regarding the vulnerability), the vulnerability indicator is considered as the objective function in GA to find the optimal coordinate for n-point hedging rule and its formulations is as follows:
