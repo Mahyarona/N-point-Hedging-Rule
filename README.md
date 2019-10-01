@@ -36,7 +36,7 @@ Subject to:
  
 The optimization problem runs for several values of n (1, 5, 10, 20, and 40) and for each of those, the vulnerability is calculated once for Hyrum reservoir with the hedging rule provided by GA and once based on the SLOP. The procedure of these steps is illustrated in Fig 4.   
 
-| ![The procedure of the GA to optimize n-hedging rule\label{fig:4}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Fig4.jpg) | 
+| ![The procedure of the GA to optimize n-hedging rule\label{fig:4}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Fig4.jpg) {:height="50%" width="50%"}| 
 |:--:| 
 | *Fig 4. The procedure of the GA to optimize n-point hedging rule* |
 
