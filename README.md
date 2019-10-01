@@ -25,5 +25,19 @@ To evaluate the performance of a water resources system, it is necessary to deve
 ![Eq.1 \label{Eq:1}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Eq1.png) <br />
 ![Eq.1 \label{Eq:1}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Eq2.png) <br />
 
+## Evolutionary Algorithm
+The evolutionary algorithms such as GA are methods to solve an optimization problem. These algorithms can reach to the near optimal solution using an intelligent searching algorithm. They start with a randomly guess as a preliminary solution and then correct the solution in an iterative process using modification functions. GA uses the mutation and cross-over function inspired by the nature process of the human evolution to correct the guess in each iterative. Moreover, the mutation function enables GA to escape of trapping in local optima. This iterative continues until the stopping criterion (number of iteration) is satisfied. Therefore, GA has four different parameters that should be defined before running, including the number of population (in this study, 20), the crossover rate (70%), the mutation rate (30%) and the number of iteration (in this study, 100). There is trade-off between the number of population and the number of iteration. For example, to have a convergence in the results, we can consider either the size of population equal to 20 and the number of iteration equal to 1000 or the size of population equal to 1000 and the number of iteration equal to 20. As it is evident, in both case the number of evaluation of the objective function which is the multiplying the population size and number of iteration is the same (20 x 1000 or 1000 x 20).
+      
+## Optimization problem for n-point hedging rule
+As discussed before, in this project, the optimization problem is solved using the GA considering minimizing the vulnerability as the objective function (Eq. 12). In the optimization problem, the coordinate location of hedging points (such as B and C in Fig 2) are the decision variables that determine the function f in Eq. 12. The optimization model of the agriculture reservoir based on the hedging rule is as follows. 
+ 
+Subject to: 
+ 
+ 
+ 
+ 
+The optimization problem runs for several values of n (1, 5, 10, 20, and 40) and for each of those, the vulnerability is calculated once for Hyrum reservoir with the hedging rule provided by GA and once based on the SLOP. The procedure of these steps is illustrated in Fig 4.   
 
-in which T= number of operating periods; $Demand_t$=the demand at operation period ; $V_n$= vulnerability index; $Def_t$ = volume of deficit in period t; $V_{nscaled}$ = scaled vulnerability index; $Deamnd_{tmax}$ = the demand at the period that maximum deficit happens ($t_max$).
+As it is shown in Fig 4, in the first loop, n value will be set (i.e. n=1) and in the second loop GA randomly guess a preliminary solution (i.e. coordinate location of points B and C in Fig 2 because of n=2). In other words, GA produces a bunch of monthly n-point hedging rule which means that each population in each iteration consists of 12 different hedging rules and each of those is related to the specific month. Next, the reservoir releases will be simulated based on the hedging rule that is a function of the coordinate location of those points and the objective function will be calculated. Then, the preliminary solution will be modified using the cross-over and mutation function until the stopping criterion is satisfied. In this moment, the vulnerability indicator is calculated based on the optimal coordinate location found by GA for the Hyrum reservoir and for the entire system. The indicator will be compared with the indicator calculated under SLOP rule. Afterward, the outer loop will be reset, n will be set to other values for n (i.e. 5) and the same procedure for inner loop will be executed until stopping criterion for the outer loop is satisfied (i.e. n <40).  
+
+
