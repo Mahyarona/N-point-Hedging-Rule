@@ -12,5 +12,7 @@ To evaluate the performance of a water resources system, it is necessary to deve
 
 
 ![Eq.1 \label{fig:1}](http://bit.ly/2ollqxf) 
+![Eq.1 \label{fig:1}](http://bit.ly/2nATp4P) 
+
 
 in which T= number of operating periods; $Demand_t$=the demand at operation period ; $V_n$= vulnerability index; $Def_t$ = volume of deficit in period t; $V_{nscaled}$ = scaled vulnerability index; $Deamnd_{tmax}$ = the demand at the period that maximum deficit happens ($t_max$).
