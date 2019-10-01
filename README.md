@@ -32,7 +32,7 @@ The evolutionary algorithms such as GA are methods to solve an optimization prob
 As discussed before, in this project, the optimization problem is solved using the GA considering minimizing the vulnerability as the objective function (Eq. 12). In the optimization problem, the coordinate location of hedging points (such as B and C in Fig 2) are the decision variables that determine the function f in Eq. 12. The optimization model of the agriculture reservoir based on the hedging rule is as follows. 
  
 Subject to: 
-![Eq.3 \label{Eq:3}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Eq3.png) <br />
+![Eq.3 \label{Eq:3}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Eq3.PNG) <br />
  
 The optimization problem runs for several values of n (1, 5, 10, 20, and 40) and for each of those, the vulnerability is calculated once for Hyrum reservoir with the hedging rule provided by GA and once based on the SLOP. The procedure of these steps is illustrated in Fig 4.   
 
