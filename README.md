@@ -11,8 +11,8 @@ The importance and the rule of hedging rule policy are discussed and shown in th
 To evaluate the performance of a water resources system, it is necessary to develop and use indices. The most famous indices have been introduced by Hashimoto et al. (1982) and developed by many researchers (Loucks et al. 1981 and Sandoval-Solis et al. 2011). The Hashimoto's risk-based indicators are reliability, vulnerability, and resiliency that quantify the frequency, size, and length of the system failures, respectively. The sustainability is another index that shows the efficiency of the system calculated based on reliability, vulnerability, and resiliency. According to demerit feature of SLOP (poor performance regarding the vulnerability), the vulnerability indicator is considered as the objective function in GA to find the optimal coordinate for n-point hedging rule and its formulations is as follows:
 
 
-![Eq.1 \label{fig:1}](http://bit.ly/2ollqxf) 
-![Eq.1 \label{fig:1}](http://bit.ly/2nATp4P) 
+![Eq.1 \label{fig:1}](http://bit.ly/2ollqxf) <br />
+![Eq.1 \label{fig:1}](http://bit.ly/2nATp4P) <br />
 
 
 in which T= number of operating periods; $Demand_t$=the demand at operation period ; $V_n$= vulnerability index; $Def_t$ = volume of deficit in period t; $V_{nscaled}$ = scaled vulnerability index; $Deamnd_{tmax}$ = the demand at the period that maximum deficit happens ($t_max$).
