@@ -60,3 +60,4 @@ As it is shown in Fig 4, in the first loop, n value will be set (i.e. n=1) and i
 | *Fig 5. The procedure of the GA to optimize n-point hedging rule* |
 
 
+![The procedure of the GA to optimize n-hedging rule\label{fig:4}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/1-point.gif)
