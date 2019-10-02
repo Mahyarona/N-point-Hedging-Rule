@@ -60,8 +60,7 @@ As it is shown in Fig 4, in the first loop, n value will be set (i.e. n=1) and i
 ### 5-point Hedging Rule vs SLOP
 ![5-point Hedging Rule vs SLOP\label{fig:6}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/5-point.gif)
 
-### 20-point Hedging Rule vs SLOP
-![1-point Hedging Rule vs SLOP\label{fig:5}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/1-point.gif)
+### 10-point Hedging Rule vs SLOP
+![1-point Hedging Rule vs SLOP\label{fig:5}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/10-point.gif)
 
-### 50-point Hedging Rule vs SLOP
-![1-point Hedging Rule vs SLOP\label{fig:5}](https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/1-point.gif)
+
