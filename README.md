@@ -15,9 +15,10 @@ The importance and the rule of hedging rule policy are discussed and shown in th
 |:--:| 
 | *Fig 2. A layout of two-point hedging rule* |
 
-| <img src="https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Fig3.jpg" width="548">| 
+| <img src="https://github.com/Mahyarona/N-point-Hedging-Rule/blob/master/Fig3.jpg" width="700">| 
 |:--:| 
 | *Fig 3. The simulation process of an agricultural reservoir operation* |
+
 ## Performance Criteria of the Reservoir System
 
 To evaluate the performance of a water resources system, it is necessary to develop and use indices. The most famous indices have been introduced by Hashimoto et al. (1982) and developed by many researchers (Loucks et al. 1981 and Sandoval-Solis et al. 2011). The Hashimoto's risk-based indicators are reliability, vulnerability, and resiliency that quantify the frequency, size, and length of the system failures, respectively. The sustainability is another index that shows the efficiency of the system calculated based on reliability, vulnerability, and resiliency. According to demerit feature of SLOP (poor performance regarding the vulnerability), the vulnerability indicator is considered as the objective function in GA to find the optimal coordinate for n-point hedging rule and its formulations is as follows:
